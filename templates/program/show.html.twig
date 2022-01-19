@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+{# ici on ne remonte pas d'un niveau par rapport à la position du fichier Show.
+Twig nous positionne directement a la source des vues views dans le MVC,
+template dans Symfony #}
+
+{% block body %}
+    <h1> Le programme est le programme numero {{ programPage }}</h1>
+{% endblock %}
