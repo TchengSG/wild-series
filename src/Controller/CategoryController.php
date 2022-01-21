@@ -3,7 +3,6 @@
 namespace App\Controller;
 
 use App\Entity\Category;
-//use App\Entity\Program;
 use App\Entity\Program;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
